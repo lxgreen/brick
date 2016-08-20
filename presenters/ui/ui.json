@@ -1,0 +1,40 @@
+{
+    "menu":{
+        "id": "top_menu",
+        "items":[
+        {
+            "text": "File",
+            "items":[
+                {
+                    "text":"Copy"
+                },
+                {
+                    "text":"Rename/Move"
+                },
+                {
+                    "text":"Delete",
+                },
+                {
+                    "text":"Mkdir"
+                }
+            ]
+
+        }],
+        "dock": "top"
+    },
+    "list":{
+        "id":"data_list",
+        "dock":"fill"
+
+    },
+    "status":{
+        "id":"status_bar",
+        "dock":"bottom",
+        "items":[
+            {
+                "id":"status_label",
+                "type":"label"
+            }
+        ]
+    }
+}

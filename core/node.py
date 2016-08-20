@@ -1,3 +1,7 @@
 class Node:
     def __init__(self):
-        self.value = None
+        self.name = None
+        self.nodes = None
+        self.data = None
+
+
